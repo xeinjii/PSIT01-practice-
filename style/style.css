@@ -53,14 +53,17 @@ nav ul li a:hover {
 
 #home {
     height: 80vh;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('./img/lupi.png');
-    background-size: cover;
-    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: #fff;
+}
+
+#home img{
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+    background-size: cover;
+    background-position: center; 
 }
 
 .btn {
